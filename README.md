@@ -1,116 +1,110 @@
-FitCo: Fitness Training & Coaching Platform
-📌 About the Project
-FitCo is a cross-platform fitness management solution that brings athletes and coaches together. It helps users to:
+# FitCo: Fitness Training & Coaching Platform
 
-Subscribe to coaching plans: Get customized workout and nutrition programs.
+## 📌 About the Project
+**FitCo** is a cross-platform fitness management solution that brings athletes and coaches together. It helps users to:
 
-Monitor progress: Weekly updates on body stats and goals.
+- **Subscribe to coaching plans:** Get customized workout and nutrition programs.
+- **Monitor progress:** Weekly updates on body stats and goals.
+- **Communicate easily:** Chat directly with your coach within the app.
+- **Coach Dashboard:** The web app provides coaches with tools to manage clients, adjust plans, and track progress effectively.
 
-Communicate easily: Chat directly with your coach within the app.
+---
 
-Coach Dashboard: The web app provides coaches with tools to manage clients, adjust plans, and track progress effectively.
+## 📱 Mobile App Features
 
-📱 Mobile App Features
-Sign Up & Login: Secure authentication system.
+- **Sign Up & Login:** Secure authentication system.
+- **Workout & Meal Plans:** Tailored routines created by professional coaches.
+- **Progress Monitoring:** Weekly tracking of measurements and objectives.
+- **Messaging:** Real-time chat between coaches and clients.
+- **Payment System:** Smooth process for purchasing plans.
+- **Reminders & Calendar:** Notifications for workouts and key milestones.
 
-Workout & Meal Plans: Tailored routines created by professional coaches.
+---
 
-Progress Monitoring: Weekly tracking of measurements and objectives.
+## 💻 Web Application (For Coaches)
 
-Messaging: Real-time chat between coaches and clients.
+- **Client Management:** View, update, and supervise training and meal programs.
+- **Admin Contact:** Reach out for support when needed.
+- **Coach Profile:** Edit and personalize coach details.
 
-Payment System: Smooth process for purchasing plans.
+---
 
-Reminders & Calendar: Notifications for workouts and key milestones.
+## ⚙️ How to Run the Project
 
-💻 Web Application (For Coaches)
-Client Management: View, update, and supervise training and meal programs.
+### Mobile App
+1. Open the project in Android Studio.
+2. Complete initial setup.
+3. Run the app directly from Android Studio.
 
-Admin Contact: Reach out for support when needed.
+### Web App
+1. Open the project in Visual Studio.
+2. Configure settings as needed.
+3. Launch the site in your browser.
 
-Coach Profile: Edit and personalize coach details.
+---
 
-⚙️ How to Run the Project
-Mobile App:
+## 🏗️ Architecture
 
-Open the project in Android Studio.
+### Mobile
+- **Framework:** Android Studio with MVP (Model-View-Presenter)
+- **Backend:** Firebase (real-time database & authentication)
+- **Frontend:** Responsive and user-friendly UI
 
-Complete initial setup.
+### Web
+- **Framework:** .NET Core with MVC (Model-View-Controller)
+- **Frontend:** Razor Pages (CSHTML), CSS, JavaScript
+- **Backend:** .NET Core
 
-Run the app directly from Android Studio.
+---
 
-Web App:
+## 💻 System Requirements
 
-Open the project in Visual Studio.
+| Platform | Requirement |
+|----------|-------------|
+| **Mobile** | Android 11.0+, 2 GB RAM minimum |
+| **Web** | Windows 10+, Intel Core i7 or equivalent, 16 GB RAM minimum |
 
-Configure settings as needed.
+---
 
-Launch the site in your browser.
+## 📄 Key Pages and Functions
 
-🏗️ Architecture
-Mobile:
+### Mobile App
+- **Home:** Navigation to profile, settings, and support.
+- **My Info:** Coach details (email, username, user type) with edit option.
+- **Settings:** Update personal info.
+- **Support:** Contact support for inquiries or issues.
 
-Framework: Android Studio with MVP (Model-View-Presenter) pattern.
+### Web App
+- **Dashboard:** Overview of clients and subscription details.
+- **Program Management:** Modify assigned programs.
+- **Admin Contact:** Direct communication with administrators.
 
-Backend: Firebase (real-time database & authentication).
+---
 
-Frontend: Responsive and user-friendly UI.
+## 🚀 Development Workflow
 
-Web:
+1. **Requirement Gathering:** Surveys, interviews, and competitor research.
+2. **Design:** Use cases, flow diagrams, and scalable system design.
+3. **Implementation:** Backend integration and intuitive frontends.
+4. **Testing:** Usability, performance, and real-world scenarios.
+5. **Deployment:** Release on app stores and secure web hosting.
 
-Framework: .NET Core with MVC (Model-View-Controller) pattern.
+---
 
-Frontend: Razor Pages (CSHTML), CSS, JavaScript.
+## 🔐 Security & Performance
 
-Backend: .NET Core server-side logic.
+- **Data Protection:** Encrypted storage and access control.
+- **Performance:** Fast interaction (avg. response < 2s).
+- **Scalability:** Ready to support high user traffic.
 
-💻 System Requirements
-Mobile	Web
-Android 11.0+	Windows 10 or higher
-Min. 2 GB RAM	Intel Core i7 or equivalent
-Min. 16 GB RAM
+---
 
-📄 Key Pages and Functions
-Mobile:
+## 🧩 Technology Stack
 
-Home: Quick access to profile, settings, and support.
+- **Mobile App:** Android Studio, Firebase
+- **Web App:** .NET Core, Razor Pages, CSS, JavaScript
+- **Database:** Firebase (realtime data + authentication)
 
-My Info: Displays coach details (email, username, user type) with an edit option.
+---
 
-Settings: Update personal information.
-
-Support: Contact support for questions or feedback.
-
-Web:
-
-Dashboard: Overview of client stats and subscriptions.
-
-Program Management: Modify workout and nutrition plans.
-
-Admin Contact: Direct line for issue resolution.
-
-🚀 Development Workflow
-Requirement Gathering: Surveys, interviews, and competitor research.
-
-Design: Use cases, flow diagrams, and scalable system design.
-
-Implementation: Backend integration and intuitive frontends for mobile & web.
-
-Testing: Usability, performance, and real-user feedback.
-
-Deployment: Publish mobile app on app stores, host web app on a secure server.
-
-🔐 Security & Performance
-Data Protection: Encryption and strict access control.
-
-Speed: Fast response time (average < 2 seconds).
-
-Scalability: Designed to handle a high number of users smoothly.
-
-🧩 Tech Stack
-Mobile App: Android Studio, Firebase
-
-Web App: .NET Core, Razor Pages, CSS, JavaScript
-
-Database: Firebase for real-time data storage and user authentication
-
+> Built with care to help people move better, feel stronger, and train smarter.
